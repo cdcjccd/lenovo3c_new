@@ -1,1 +1,0 @@
-# lenovo3c_new
