@@ -332,9 +332,10 @@
     });
 
 
-	$('#allname').clcik(function () {
+	$('#allname').click(function () {
         $('#allname').attr('checked','checked');
-        $("table:eq(1)").find('tr').find('td').find('.company').show()
+        $("table:eq(1)").find('tr').find('.company').show();
+        $('#nameName').children().eq(0).attr('selected','selected')
     });
 
 
