@@ -277,17 +277,17 @@ class SaleAnalyzeController extends Controller
                     'name' => $name,
                     'type' => 'line',
                     'data' => $value,
-                    'markPoint' => [
-                        'data' => [
-                            ['type' => 'max', 'name' => '最大值'],
-                            ['type' => 'min', 'name' => '最小值']
-                        ]
-                    ],
-                    'markLine' => [
-                        'data' => [
-                            ['type' => 'average', 'name' => '平均值']
-                        ]
-                    ]
+//                    'markPoint' => [
+//                        'data' => [
+//                            ['type' => 'max', 'name' => '最大值'],
+//                            ['type' => 'min', 'name' => '最小值']
+//                        ]
+//                    ],
+//                    'markLine' => [
+//                        'data' => [
+//                            ['type' => 'average', 'name' => '平均值']
+//                        ]
+//                    ]
                 );
             }else{
                 continue;
@@ -359,9 +359,158 @@ class SaleAnalyzeController extends Controller
      *  销售商家占比分析
      */
     public function business() {
-        $this -> display ();
+        if (IS_AJAX)
+        {
+            if (I('get.day') == 7)
+            {
+                $where['audit_time'] = array('GT', date ('Y-m-d H:i:s', time () - (7 * 86400)));
+                $where['audit_decision'] = 1;
+//                dump ($this -> businessPie ($where));
+                $this -> ajaxReturn ( $this -> businessPie ($where) );
+            }elseif (I('get.day') == 30)
+            {
+                $where['audit_time'] = array('GT', date ('Y-m-d H:i:s', time () - (30 * 86400)));
+                $where['audit_decision'] = 1;
+                $this -> ajaxReturn ( $this -> businessPie ($where) );
+            }elseif (IS_POST){
+                $where['audit_time'] = array('between' , array( I('post.startDate') , I('post.endDate') ) );
+                $where['audit_decision'] = 1;
+                $search = $this -> businessPie ($where);
+                $this->ajaxReturn (array_values ($search) );
+            }
+        }else {
+            $this -> display ();
+        }
     }
 
+//    public function tong() {
+//        return mt_rand (1,10);
+//    }
+//    public function audit_time() {
+//        $day = $this -> tianShu(20);
+//        return $day[ array_rand ($day, 1)].'00:00:00' ;
+////        return array_rand ($this -> tianShu(20) , 1).'00:00:00';
+//    }
+//    public function shop_name() {
+//        return mt_rand(2,5);
+//    }
+//    public function pro() {
+//        return mt_rand(1,10);
+//    }
+//    public function dataTest() {
+//
+//        for ($i = 0 ; $i < 1000 ;$i++)
+//        {
+//            $this -> sql();
+//        }
+//    }
+//    public function sql() {
+////        $day = $this -> tianShu (15);
+//        echo $data['audit_time'] = $this -> audit_time();
+////        dump ($data['audit_time']);die;
+////        $shops_name = [2,3,4,5];
+//        $data['audit_shops_name'] = $this -> shop_name();
+//        $data['audit_decision'] = 1;
+//        $data['audit_tong'] = $this -> tong();
+//        $data['audit_product'] = $this -> pro();
+//        M('checking_audit') ->add ($data);
+//    }
+    /**
+     *  商家扇形图数据
+     * @param $where
+     * @return mixed
+     */
+    protected function businessPie($where)
+    {
+        $businessNum = M('sys_business') -> max('id');
+        $data = [];
+        for ($i = 1 ; $i <= $businessNum ; $i++ )
+        {
+            $businessName = M('sys_business') -> where("id = $i") -> getField ('busName');
+            if (isset($businessName))
+            {
+                $data[$i] = array(
+                    'name' => $businessName,
+                    'value' => M('checking_audit') -> where("audit_shops_name = $i") -> where($where) -> count()
+                );
+//                dump (M('checking_audit') -> getLastSql ());
+                if ($data[$i]['value'] == '0')
+                {
+                    unset($data[$i]);
+                }
+            }else{
+                continue;
+            }
+        }
+        return array_values ( $data );
+    }
+
+    public function businessLine()
+    {
+        if (I('get.day') == 7)
+        {
+            $this -> ajaxReturn($this -> businessLineData(7));
+        }
+        if (I('get.day') == 30)
+        {
+            $this -> ajaxReturn($this -> businessLineData(30));
+        }
+    }
+
+    public function businessLineData($dayNum)
+    {
+        $productNum = M('sys_business') -> max('id');
+        $day = $this -> tianShu($dayNum);
+        $data = [];
+        for ($i = 1 ; $i <= $productNum ; $i++)
+        {
+            $name = M('sys_business') -> where("id = $i") -> find()['busname'];
+            if ( isset($name) )
+            {
+                $value = [];
+                for ($n = 0 ; $n < count($day) ; $n++)
+                {
+                    $where['audit_time'] = array('between' , array( $day[$n].' 00:00:00' , date ('Y-m-d H:i:s' , strtotime($day[$n].'+1 day') -1 )) );
+                    $where['audit_shops_name'] = $i;
+                    $where['audit_decision'] = 1;
+                    $value[$n] = M('checking_audit')
+                        -> field('audit_time')
+                        -> where($where)
+                        -> count();
+//                    dump (M('checking_audit')->getLastSql());
+                }
+                $num = 0;
+                for ($p = 0 ; $p < count ($value) ; $p++)
+                {
+                    $num += $value[$p];
+                }
+                if ($num != 0)
+                {
+                    $data[$i] = array (
+                        'name' => $name,
+                        'type' => 'line',
+                        'data' => array_reverse ($value),
+                    'markPoint' => [
+                        'data' => [
+                            ['type' => 'max', 'name' => '最大值'],
+                            ['type' => 'min', 'name' => '最小值']
+                        ]
+                    ],
+                    'markLine' => [
+                        'data' => [
+                            ['type' => 'average', 'name' => '平均值']
+                        ]
+                    ]
+                    );
+                }else{
+                    continue;
+                }
+            }else{
+                continue;
+            }
+        }
+        return array('day' => array_reverse ($day) , 'info' => array_values($data)) ;
+    }
     /**
      *  销售占比分析
      */

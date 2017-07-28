@@ -6,19 +6,19 @@
   <title>联保云</title> 
   <meta name="description" content="" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/ace/css/bootstrap.css" /> 
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/ace/css/font-awesome.css" />  
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/ace/css/ace-fonts.css" /> 
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />  
-  <script src="/lbyun/lbyun/Public/Admin/ace/js/ace-extra.js"></script> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/ace/css/bootstrap.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/ace/css/font-awesome.css" />  
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/ace/css/ace-fonts.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />  
+  <script src="/lenovo3c_new/lbyun/Public/Admin/ace/js/ace-extra.js"></script> 
   <style type="text/css">
 	.commitopacity{position:absolute; width:100%; height:100px; background:#7f7f7f; filter:alpha(opacity=50); -moz-opacity:0.8; -khtml-opacity: 0.5; opacity: 0.5; top:0px; z-index:99999;}
 	</style> 
   <!-- 即时通讯 --> 
-  <link rel="stylesheet" type="text/css" href="/lbyun/lbyun/Public/Admin/plugins/websocketInstantMsg/ext4/resources/css/ext-all.css" /> 
-  <link rel="stylesheet" type="text/css" href="/lbyun/lbyun/Public/Admin/plugins/websocketInstantMsg/css/websocket.css" /> 
-  <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/plugins/websocketInstantMsg/ext4/ext-all-debug.js"></script> 
-  <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/plugins/websocketInstantMsg/websocket.js"></script> 
+  <link rel="stylesheet" type="text/css" href="/lenovo3c_new/lbyun/Public/Admin/plugins/websocketInstantMsg/ext4/resources/css/ext-all.css" /> 
+  <link rel="stylesheet" type="text/css" href="/lenovo3c_new/lbyun/Public/Admin/plugins/websocketInstantMsg/css/websocket.css" /> 
+  <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/plugins/websocketInstantMsg/ext4/ext-all-debug.js"></script> 
+  <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/plugins/websocketInstantMsg/websocket.js"></script> 
  </head> 
  <body class="no-skin"> 
   <div id="navbar" class="navbar navbar-default"> 
@@ -29,7 +29,7 @@
     <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar"> <span class="sr-only">Toggle sidebar</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
     <div class="navbar-header pull-left"> 
      <a class="navbar-brand"> 
-      <img src="/lbyun/lbyun/Public/Admin/ace/images/logo.png" /> </a>
+      <img src="/lenovo3c_new/lbyun/Public/Admin/ace/images/logo.png" /> </a>
     </div> 
 
     <div class="navbar-buttons navbar-header pull-right" role="navigation"> 
@@ -57,7 +57,7 @@
   <div id="fhsmsobj">
    <!-- 站内信声音消息提示 -->
   </div> 
-  <script src="/lbyun/lbyun/Public/Admin/static/login/js/jquery-1.11.1.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/login/js/jquery-1.11.1.js"></script> 
   <script type="text/javascript">
        
 	  function logout(){	
@@ -592,7 +592,7 @@
      <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse"> 
       <i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i> 
      </div> 
-     <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/static/js/jquery-1.7.2.js"></script> 
+     <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/jquery-1.7.2.js"></script> 
      <script type="text/javascript">
 					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
 			
@@ -668,7 +668,7 @@
         <div class="commitopacity" id="bkbgjz"></div> 
         <div style="padding-left: 70%;padding-top: 1px;"> 
          <div style="float: left;margin-top: 3px;">
-          <img src="/lbyun/lbyun/Public/Admin/static/images/loadingi.gif" /> 
+          <img src="/lenovo3c_new/lbyun/Public/Admin/static/images/loadingi.gif" /> 
          </div> 
          <div style="margin-top: 6px;">
           <h4 class="lighter block red">&nbsp;加载中 ...</h4>
@@ -687,20 +687,20 @@
    <!-- /.main-content --> 
   </div>
   <script type="text/javascript">
-			window.jQuery || document.write("<script src='/lbyun/lbyun/Public/Admin/ace/js/jquery.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/ace/js/jquery.js'>"+"<"+"/script>");
 		</script> 
   <script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='/lbyun/lbyun/Public/Admin/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+			if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 		</script>
   <script>
 
       $('li>a').click(function(){$(this).css('color','#4c8fbd').parent().siblings().find('a').css('color','#757575')})
 
   </script>
-  <script src="/lbyun/lbyun/Public/Admin/ace/js/bootstrap.js"></script> 
-  <script src="/lbyun/lbyun/Public/Admin/ace/js/ace/ace.js"></script> 
-  <script src="/lbyun/lbyun/Public/Admin/ace/js/ace/ace.sidebar.js"></script> 
-  <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/static/js/myjs/index.js"></script> 
-  <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/static/js/jquery.tips.js"></script>  
+  <script src="/lenovo3c_new/lbyun/Public/Admin/ace/js/bootstrap.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/ace/js/ace/ace.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/ace/js/ace/ace.sidebar.js"></script> 
+  <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/myjs/index.js"></script> 
+  <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/jquery.tips.js"></script>  
  </body>
 </html>

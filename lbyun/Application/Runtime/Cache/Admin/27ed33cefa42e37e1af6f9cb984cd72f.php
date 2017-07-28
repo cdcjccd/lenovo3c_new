@@ -9,31 +9,31 @@
 	<meta http-equiv="Expires" content="0" />
 	<meta name="author" content="http://ljz0721cx.iteye.com/" />
 	<meta http-equiv="X-UA-Compatible" content="IE=7,IE=9,IE=10" />
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery-1.js" type="text/javascript"></script>
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery.js" type="text/javascript"></script>
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script>
-	<link href="/lbyun/lbyun/Public/Admin/static/userlist/jquery.css" type="text/css" rel="stylesheet" />
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery_002.js" type="text/javascript"></script>
-	<!--<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery_004.js" type="text/javascript"></script>-->
-	<link href="/lbyun/lbyun/Public/Admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet" />
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/bootstrap.js" type="text/javascript"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-1.js" type="text/javascript"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery.js" type="text/javascript"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script>
+	<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery.css" type="text/css" rel="stylesheet" />
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery_002.js" type="text/javascript"></script>
+	<!--<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery_004.js" type="text/javascript"></script>-->
+	<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet" />
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/bootstrap.js" type="text/javascript"></script>
 	<!--[if lte IE 6]><link href="/lenjoy/static/bootstrap/bsie/css/bootstrap-ie6.min.css" type="text/css" rel="stylesheet" />
 <script src="/lenjoy/static/bootstrap/bsie/js/bootstrap-ie.min.js" type="text/javascript"></script><![endif]-->
-	<!--<script src="/lbyun/lbyun/Public/Admin/static/userlist/WdatePicker.js" type="text/javascript"></script>-->
-	<!--<link href="/lbyun/lbyun/Public/Admin/static/userlist/WdatePicker.css" rel="stylesheet" type="text/css" />-->
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/jquery_003.js"></script>
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/mustache.js" type="text/javascript"></script>
-	<link href="/lbyun/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet" />
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
+	<!--<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/WdatePicker.js" type="text/javascript"></script>-->
+	<!--<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/WdatePicker.css" rel="stylesheet" type="text/css" />-->
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery_003.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/mustache.js" type="text/javascript"></script>
+	<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet" />
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
 	<!--  需要添加百度统计分析-->
 	<meta name="decorator" content="default" />
 	<!--<link rel="stylesheet" href="style.css" type="text/css">-->
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/My97DatePicker/WdatePicker.js"></script>
-	<!--<script src="/lbyun/lbyun/Public/Admin/amcharts/amcharts.js" type="text/javascript"></script>-->
-	<!--<script src="/lbyun/lbyun/Public/Admin/amcharts/pie.js" type="text/javascript"></script>-->
-	<script src="/lbyun/lbyun/Public/Admin/static/userlist/echarts/echarts.js"></script>
-	<!--<script data-require-id="echarts/chart/pie" src="/lbyun/lbyun/Public/Admin/static/userlist/pie.js" async=""></script><script data-require-id="echarts/chart/bar" src="/lbyun/lbyun/Public/Admin/static/userlist/bar.js" async=""></script><script data-require-id="echarts/chart/funnel" src="/lbyun/lbyun/Public/Admin/static/userlist/funnel.js" async=""></script><script data-require-id="echarts/chart/line" src="/lbyun/lbyun/Public/Admin/static/userlist/line.js" async=""></script></head>-->
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/My97DatePicker/WdatePicker.js"></script>
+	<!--<script src="/lenovo3c_new/lbyun/Public/Admin/amcharts/amcharts.js" type="text/javascript"></script>-->
+	<!--<script src="/lenovo3c_new/lbyun/Public/Admin/amcharts/pie.js" type="text/javascript"></script>-->
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/echarts/echarts.js"></script>
+	<!--<script data-require-id="echarts/chart/pie" src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/pie.js" async=""></script><script data-require-id="echarts/chart/bar" src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/bar.js" async=""></script><script data-require-id="echarts/chart/funnel" src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/funnel.js" async=""></script><script data-require-id="echarts/chart/line" src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/line.js" async=""></script></head>-->
 </head>
 <body>
 <div class="container-fluid">
@@ -557,7 +557,6 @@
 			}
 			dataList += "<tr><td>"+data.day[s]+"</td>"+singleData+"<td>"+num+"</td></tr>"
 		}
-
 		$('#trendAnalysisData').html(dataList);
     }
 
