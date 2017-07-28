@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a821042a-4753-428f-bad9-df3012ca6f83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php" afterPath="$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/business.html" afterPath="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Runtime/Cache/Admin/bb5a7a36714c10baf33d3d106647c2c3.php" afterPath="$PROJECT_DIR$/lbyun/Application/Runtime/Cache/Admin/bb5a7a36714c10baf33d3d106647c2c3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/route.html" afterPath="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/route.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Runtime/Cache/Admin/95873eeaaa8a526aef2510bdd59b4be3.php" afterPath="$PROJECT_DIR$/lbyun/Application/Runtime/Cache/Admin/95873eeaaa8a526aef2510bdd59b4be3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lbyun/Application/Runtime/Logs/Admin/17_07_28.log" afterPath="$PROJECT_DIR$/lbyun/Application/Runtime/Logs/Admin/17_07_28.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +19,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="business.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/business.html">
+      <file leaf-file-name="SaleAnalyzeController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="337" column="67" lean-forward="true" selection-start-line="337" selection-start-column="67" selection-end-line="337" selection-end-column="67" />
+            <state relative-caret-position="81">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding>
+                <element signature="e#10866#12994#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/route.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="311" column="7" lean-forward="true" selection-start-line="310" selection-start-column="13" selection-end-line="311" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -43,8 +59,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php" />
         <option value="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/business.html" />
+        <option value="$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php" />
+        <option value="$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/route.html" />
       </list>
     </option>
   </component>
@@ -221,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="net.intellij.plugins.sexyeditor.SexyEditorConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -316,18 +333,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500867189215</updated>
-      <workItem from="1501207565202" duration="6309000" />
+      <workItem from="1501207565202" duration="14376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28985000" />
+    <option name="totallyTimeSpent" value="37052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -416,14 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="490" column="10" lean-forward="false" selection-start-line="490" selection-start-column="10" selection-end-line="490" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/微信支付demo (1).php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1959">
@@ -434,9 +443,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/business.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="337" column="67" lean-forward="true" selection-start-line="337" selection-start-column="67" selection-end-line="337" selection-end-column="67" />
+        <state relative-caret-position="340">
+          <caret line="295" column="0" lean-forward="false" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/View/SaleAnalyze/route.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="311" column="7" lean-forward="true" selection-start-line="310" selection-start-column="13" selection-end-line="311" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lbyun/Application/Admin/Controller/SaleAnalyzeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#10866#12994#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

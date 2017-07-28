@@ -13,7 +13,6 @@ use Think\Controller;
 
 class SaleAnalyzeController extends Controller
 {
-
     /**
      * 通路分析扇形图
      */
@@ -21,18 +20,24 @@ class SaleAnalyzeController extends Controller
     {
         if (IS_AJAX) {
             if (I ('get.day') == '7') {
-                $where['audit_time'] = array('GT' , date ( 'Y-m-d H:i:s' , time() - (7*86400) ) );
-                $where['audit_decision'] = 1;
-                $table['tableName'] = 'sys_route';
-                $table['id'] = 't_id';
-                $pie7 = $this -> pie ($where , $table);
-                $this->ajaxReturn (array_values ($pie7));
+                if (cookie ('pie7_route'))
+                {
+//                    dump (array_values (json_decode (cookie ('pie7_route'),true)));die;
+                    $this->ajaxReturn (array_values (unserialize (cookie ('pie7_route'))));
+                }else{
+                    $where['audit_time'] = array('GT' , date ( 'Y-m-d H:i:s' , time() - (7*86400) ) );
+                    $where['audit_decision'] = 1;
+//                    $table['tableName'] = 'sys_route';
+//                    $table['id'] = 't_id';
+                    $pie7 = $this -> pie ($where );
+//                    dump ($pie7);die;
+                    cookie ('pie7_route' , serialize ( $pie7 ) );
+                    $this->ajaxReturn (array_values ($pie7));
+                }
             }elseif (I ('get.day') == '30'){
                 $where['audit_time'] = array('GT' , date ( 'Y-m-d H:i:s' , time() - (30*86400) ) );
-                $where['audit_decision'] = 1;
-                $table['tableName'] = 'sys_route';
-                $table['id'] = 't_id';
-                $pie30 = $this -> pie ($where , $table);
+                $where['audit_decision'] = 1;;
+                $pie30 = $this -> pie ($where );
                 $this->ajaxReturn (array_values ($pie30) );
             }elseif (IS_POST){
                 $where['audit_time'] = array('between' , array( I('post.startDate') , I('post.endDate') ) );
@@ -51,15 +56,15 @@ class SaleAnalyzeController extends Controller
      * @param $where
      * @return array    返回数据
      */
-    protected function pie ($where , $table )
+    protected function pie ($where  )
     {
 
-        $num = M($table['tableName']) -> max($table['id']);
+        $num = M('sys_route') -> max('t_id');
 //                dump ($num);
         $pie = [];
         for ($i = 1 ; $i <= $num ; $i++) {
             $pie[$i] = array (
-                'name' => M($table['tableName']) -> field('name') -> where($table['id'].' ='." $i") -> find()['name'] ,
+                'name' => M('sys_route') -> field('name') -> where('t_id'.' ='." $i") -> find()['name'] ,
                 'value' => M('checking_audit') -> field('audit_tong') -> where("audit_tong = $i") -> where($where) -> count()
             );
         }
