@@ -3,6 +3,10 @@
 namespace Admin\Controller;
 use Think\Controller;
 
+/**
+ * Class UserController
+ * @package Admin\Controller    终端用户管理
+ */
 class UserController extends Controller{
 
 	public $userModel;

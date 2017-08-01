@@ -281,7 +281,7 @@ class SaleAnalyzeController extends Controller
                 $data[$i] = array (
                     'name' => $name,
                     'type' => 'line',
-                    'data' => $value,
+                    'data' => array_reverse ( $value ),
 //                    'markPoint' => [
 //                        'data' => [
 //                            ['type' => 'max', 'name' => '最大值'],

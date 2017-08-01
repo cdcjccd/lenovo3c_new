@@ -7,6 +7,12 @@
  */
 namespace Admin\Model;
 use Think\Model;
+
+/**
+ * Class AreaModel
+ * @package Admin\Model
+ * 商家爱用户 -- 区域
+ */
 class AreaModel extends Model{
 
     /**

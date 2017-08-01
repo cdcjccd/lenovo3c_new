@@ -3,6 +3,11 @@
 namespace Admin\Model;
 use Think\Model;
 
+/**
+ * Class TongluModel
+ * @package Admin\Model
+ * 商家用户 -- 通路管理
+ */
 class TongluModel extends Model{
 	
 	protected $tableName = 'sys_route';

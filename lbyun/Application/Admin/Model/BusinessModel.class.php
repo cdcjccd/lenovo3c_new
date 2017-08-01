@@ -9,6 +9,11 @@
 namespace Admin\Model;
 use Think\Model;
 
+/**
+ * Class BusinessModel
+ * @package Admin\Model
+ * 商家用户 -- 商家管理
+ */
 class BusinessModel extends Model{
 
     /**

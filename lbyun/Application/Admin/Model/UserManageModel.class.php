@@ -9,6 +9,11 @@
 namespace Admin\Model;
 use Think\Model\RelationModel;
 
+/**
+ * Class UserManageModel
+ * @package Admin\Model
+ * 商家用户 -- 用户管理
+ */
 class UserManageModel extends RelationModel{
 
     protected $tableName = 'sys_user';

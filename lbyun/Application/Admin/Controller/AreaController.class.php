@@ -4,6 +4,11 @@ namespace Admin\Controller;
 use Think\Controller;
 use Think\Image\Driver\Gd;
 
+/**
+ * Class AreaController
+ * @package Admin\Controller
+ * 商家用户 -- 区域
+ */
 class AreaController extends Controller{
 
     /**

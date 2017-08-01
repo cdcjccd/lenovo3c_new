@@ -3,6 +3,11 @@
 namespace Admin\Model;
 use Think\Model;
 
+/**
+ * Class ZuserModel
+ * @package Admin\Model
+ * 终端用户
+ */
 class ZuserModel extends Model{
 	
 	protected $tableName = 'z_user';

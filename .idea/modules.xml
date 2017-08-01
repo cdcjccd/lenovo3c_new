@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../lenovo_test/ThinkPHP/.idea/ThinkPHP.iml" filepath="$PROJECT_DIR$/../lenovo_test/ThinkPHP/.idea/ThinkPHP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lenovo3c_new.iml" filepath="$PROJECT_DIR$/.idea/lenovo3c_new.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\thinkphp_5.0.10_full\.idea\thinkphp_5.0.10_full.iml" filepath="C:\Users\Administrator\Desktop\thinkphp_5.0.10_full\.idea\thinkphp_5.0.10_full.iml" />
+    </modules>
+  </component>
+</project>

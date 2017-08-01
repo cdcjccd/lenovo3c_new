@@ -3,6 +3,12 @@
 namespace Admin\Controller;
 use Think\Controller;
 // use Admin\Model\TongluModel;
+
+/**
+ * Class TongluController
+ * @package Admin\Controller
+ * 商家用户 -- 通路管理
+ */
 class TongluController extends Controller{
 	
 	public $Model;
