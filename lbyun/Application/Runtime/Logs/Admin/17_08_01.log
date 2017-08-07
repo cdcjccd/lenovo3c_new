@@ -908,3 +908,68 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-08-01T12:24:06+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/SaleAnalyze/route.html?day=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T12:24:06+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/SaleAnalyze/columnar.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-01T16:43:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/SaleAnalyze/route.html?day=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-01T16:43:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/SaleAnalyze/columnar.html?day=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0090s ]
+SQL: SELECT MAX(t_id) AS tp_max FROM `sys_route` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `checking_audit` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-08-01  00:00:00' AND '2017-08-01 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-31  00:00:00' AND '2017-07-31 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-30  00:00:00' AND '2017-07-30 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-29  00:00:00' AND '2017-07-29 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-28  00:00:00' AND '2017-07-28 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-27  00:00:00' AND '2017-07-27 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-26  00:00:00' AND '2017-07-26 23:59:59' AND `audit_tong` = 1 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `sys_route` WHERE ( t_id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-08-01  00:00:00' AND '2017-08-01 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-31  00:00:00' AND '2017-07-31 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-30  00:00:00' AND '2017-07-30 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-29  00:00:00' AND '2017-07-29 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-28  00:00:00' AND '2017-07-28 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-27  00:00:00' AND '2017-07-27 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-26  00:00:00' AND '2017-07-26 23:59:59' AND `audit_tong` = 2 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `sys_route` WHERE ( t_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-08-01  00:00:00' AND '2017-08-01 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-31  00:00:00' AND '2017-07-31 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-30  00:00:00' AND '2017-07-30 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-29  00:00:00' AND '2017-07-29 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-28  00:00:00' AND '2017-07-28 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-27  00:00:00' AND '2017-07-27 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-26  00:00:00' AND '2017-07-26 23:59:59' AND `audit_tong` = 3 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `sys_route` WHERE ( t_id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-08-01  00:00:00' AND '2017-08-01 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-31  00:00:00' AND '2017-07-31 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-30  00:00:00' AND '2017-07-30 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-29  00:00:00' AND '2017-07-29 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-28  00:00:00' AND '2017-07-28 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-27  00:00:00' AND '2017-07-27 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `checking_audit` WHERE `audit_time` BETWEEN '2017-07-26  00:00:00' AND '2017-07-26 23:59:59' AND `audit_tong` = 4 AND `audit_decision` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `sys_route` WHERE ( t_id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-01T16:43:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/SaleAnalyze/columnarRouteList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0070s ]
+SQL: SELECT `t_id`,`name` FROM `sys_route`  [ RunTime:0.0000s ]
+

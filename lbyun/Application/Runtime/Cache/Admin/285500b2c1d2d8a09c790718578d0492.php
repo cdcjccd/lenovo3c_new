@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
 <!-- 下拉框 -->
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/chosen.css" />
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/chosen.css" />
 <!-- jsp文件头和头部 -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
 		<title>联保云</title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-		<link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
-		<link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
-		<link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
-		<link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
-		<script src="/lbyun/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
-		<script src="/lbyun/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
-		<script src="/lbyun/lbyun/Public/Admin/static/ace/js/respond.js"></script>
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/respond.js"></script>
 </head>
 <body class="no-skin">
 
@@ -156,7 +156,7 @@
 		</div>
 	</div>
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
 
 			function ch1(){
                 if(confirm("您确定要删除吗?")){
@@ -168,11 +168,11 @@
             }
 		</script>
 		<script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+			if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 		</script>	
-	<script src="/lbyun/lbyun/Public/Admin/static/module_option/js/layer.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/module_option/js/layer.js"></script>
 <!--layer弹出图层-->
-	<script type="text/javascript" src="/lbyun/lbyun/Public/Admin/static/js/jquery.tips.js"></script>
+	<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/jquery.tips.js"></script>
 	<script type="text/javascript">
 		$(top.hangge());//关闭加载状态
 		//检索

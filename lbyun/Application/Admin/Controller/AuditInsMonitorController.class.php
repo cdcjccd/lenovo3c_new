@@ -11,8 +11,8 @@ namespace Admin\Controller;
 use Think\Controller;
 
 /**
- * Class AuditInsMonitorController
- * @package Admin\Controller    审核监控面板控制器
+ * Class AuditInsMonitorController  统计 -- 审核监控面板控制器
+ * @package Admin\Controller
  */
 class AuditInsMonitorController extends Controller{
 
@@ -20,6 +20,16 @@ class AuditInsMonitorController extends Controller{
      *  实时监控面板
      */
     public function realTimeMonitor() {
+        $a = [5,6];
+        $b = [2,3,4,5];
+//        for ($i = 0 ;$i<count ($a) ; $i++){
+//            for ($s = 0 ; $s < count ($b) ; $s++){
+//                if ($a[$i] != $b[$s]){
+//                    $c[$i] = $b[$s];
+//                }
+//            }
+//        }
+        dump (array_intersect ($a,$b));
         $this -> display();
     }
 

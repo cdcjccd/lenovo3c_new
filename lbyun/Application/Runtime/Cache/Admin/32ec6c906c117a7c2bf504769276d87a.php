@@ -6,21 +6,21 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/login/bootstrap.min.css" />
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/login/css/camera.css" />
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/login/bootstrap-responsive.min.css" />
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/login/matrix-login.css" />
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/public/css/commen.css">
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/login/bootstrap.min.css" />
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/login/css/camera.css" />
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/login/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/login/matrix-login.css" />
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/public/css/commen.css">
 <!-- <link rel="stylesheet" href="login/css/commen.css" /> -->
-<link href="/lbyun/lbyun/Public/Home/login/font-awesome.css" rel="stylesheet" />
-<script type="text/javascript" src="/lbyun/lbyun/Public/Home/login/js/jquery-1.5.1.min.js"></script>
+<link href="/lenovo3c_new/lbyun/Public/Home/login/font-awesome.css" rel="stylesheet" />
+<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Home/login/js/jquery-1.5.1.min.js"></script>
 <!-- 软键盘控件start -->
-<link href="/lbyun/lbyun/Public/Home/login/keypad/css/framework/form.css" rel="stylesheet" type="text/css"/>
+<link href="/lenovo3c_new/lbyun/Public/Home/login/keypad/css/framework/form.css" rel="stylesheet" type="text/css"/>
 <!-- 软键盘控件end -->
 <!-- input提示框 -->
-<script src="/lbyun/lbyun/Public/Home/login/js/jquery-1.11.1.js"></script>
-<script src="/lbyun/lbyun/Public/Home/login/js/jquery-validate.js"></script>
-<link rel="stylesheet" href="/lbyun/lbyun/Public/Home/login/css/input_tishi.css"/>
+<script src="/lenovo3c_new/lbyun/Public/Home/login/js/jquery-1.11.1.js"></script>
+<script src="/lenovo3c_new/lbyun/Public/Home/login/js/jquery-validate.js"></script>
+<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Home/login/css/input_tishi.css"/>
 <!-- input提示框 -->
  <style type="text/css">
       .cavs{
@@ -79,7 +79,7 @@
 						<div class="main_input_box">
 							<p class="huiyuanming">用户名：</p>
 							<span class="add-on bg_lg">
-							<i><img height="37" src="/lbyun/lbyun/Public/Home/login/user.png" /></i>
+							<i><img height="37" src="/lenovo3c_new/lbyun/Public/Home/login/user.png" /></i>
 							</span><input class="input_shuru" type="text" name="loginname" id="loginname" value="" placeholder="请输入用户名" />
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 						<div class="main_input_box">
 							<p class="huiyuanming">密码：</p>
 							<span class="add-on bg_lg">
-							<i><img height="37" src="/lbyun/lbyun/Public/Home/login/suo.png" /></i>
+							<i><img height="37" src="/lenovo3c_new/lbyun/Public/Home/login/suo.png" /></i>
 							</span><input class="input_shuru" type="password" name="password" id="password" placeholder="请输入密码" value=""/>
 							<p class="wangjimima">忘记密码？</p>
 							<p class="tiaoyue"><input type="checkbox" checked><span>我已阅读并同意<a href="xieyi.html">《联保云服务协议》</a></span></p>
@@ -109,7 +109,7 @@
 					<div style="width:86%;padding-left:8%;">
                        <div id="yzm" style="display: none">
 						<div style="float: left;padding-top:2px;">
-							<i><img src="/lbyun/lbyun/Public/Home/login/yan.png" /></i>
+							<i><img src="/lenovo3c_new/lbyun/Public/Home/login/yan.png" /></i>
 						</div>
 						<!-- <div style="float: left;" class="codediv">
 							<input type="text" name="code" id="code" class="login_code"
@@ -127,33 +127,33 @@
 		</div>
 		<div id="loginbox" style="margin-right:2%;">
 			<form class="form_img">
-				<a href="#"><img src="/lbyun/lbyun/Public/Home/login/images/img_02.png"></a>
+				<a href="#"><img src="/lenovo3c_new/lbyun/Public/Home/login/images/img_02.png"></a>
 			</form>
 		</div>
 		<div class="cliearfix" style="clear:both;"></div>
 		<div class="footer" style="margin-top:100px;">
 	        <div class="footer_t">
 	        	<ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_29.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_29.png"></li>
 	                <li><p>十分钟让您拥有云端售后能力</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_31.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_31.png"></li>
 	                <li><p>7*24小时售后顾问支持</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_33.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_33.png"></li>
 	                <li><p>极大降低服务成本</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_35.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_35.png"></li>
 	                <li><p>助你赢取客户忠诚度</p></li>
 	            </ul>
 	            <div class="clearfix"></div>
 	        </div>
 	        <div class="footer_c">
 	        	<ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_41.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_41.png"></li>
 	                <li>
 	                	<p>服务热线</p>
 	                    <p>400-882-2088</p>
@@ -171,7 +171,7 @@
 	        <div class="footer_b">
 	            <span>Copyright&nbsp;&nbsp;联保云&nbsp;版权所有2016&nbsp;&nbsp;<a target="_blank" href=""><!-- http://www.miitbeian.gov.cn/ -->京ICP备16042723号-1</a>&nbsp;&nbsp;
 		 		<a target="_blank" href=""><!-- http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022735 -->
-		 			<img src="/lbyun/lbyun/Public/Home/public/images/record.png">
+		 			<img src="/lenovo3c_new/lbyun/Public/Home/public/images/record.png">
 		 			京公网安备 11010802022735号
 		 		</a>
 		 	</span>
@@ -285,7 +285,7 @@
 					<div style="width:60%;padding-left:20%;">
 
 						<div style="float: left;padding-top:2px;">
-							<i><img src="/lbyun/lbyun/Public/Home/login/yan.png" /></i>
+							<i><img src="/lenovo3c_new/lbyun/Public/Home/login/yan.png" /></i>
 						</div>
 						<div style="float: left;" class="codediv">
 							<input type="text" name="rcode" id="rcode" class="login_code" style="height:16px; padding-top:4px;" data-tip="请输入您的邮箱" data-valid="isNonEmpty" data-error="验证码不能为空" />
@@ -302,26 +302,26 @@
 			<div class="footer" style="margin-top:100px;">
 	        <div class="footer_t">
 	        	<ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_29.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_29.png"></li>
 	                <li><p>十分钟让您拥有云端售后能力</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_31.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_31.png"></li>
 	                <li><p>7*24小时售后顾问支持</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_33.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_33.png"></li>
 	                <li><p>极大降低服务成本</p></li>
 	            </ul>
 	            <ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_35.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_35.png"></li>
 	                <li><p>助你赢取客户忠诚度</p></li>
 	            </ul>
 	            <div class="clearfix"></div>
 	        </div>
 	        <div class="footer_c">
 	        	<ul>
-	            	<li><img src="/lbyun/lbyun/Public/Home/login/images/lxy_index_41.png"></li>
+	            	<li><img src="/lenovo3c_new/lbyun/Public/Home/login/images/lxy_index_41.png"></li>
 	                <li>
 	                	<p>服务热线</p>
 	                    <p>400-882-2088</p>
@@ -339,7 +339,7 @@
 	        <div class="footer_b">
 	            <span>Copyright&nbsp;&nbsp;联保云&nbsp;版权所有2016&nbsp;&nbsp;<a target="_blank" href=""><!-- http://www.miitbeian.gov.cn/ -->京ICP备16042723号-1</a>&nbsp;&nbsp;
 		 		<a target="_blank" href="">
-		 			<img src="/lbyun/lbyun/Public/Home/public/images/record.png">
+		 			<img src="/lenovo3c_new/lbyun/Public/Home/public/images/record.png">
 		 			京公网安备 11010802022735号
 		 		</a>
 		 	</span>
@@ -762,16 +762,16 @@
 			top.location.href = location.href;
 		}
 	</script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/bootstrap.min.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/js/jquery-1.7.2.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/jquery.easing.1.3.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/jquery.mobile.customized.min.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/camera.min.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/templatemo_script.js"></script>
-	<script src="/lbyun/lbyun/Public/Home/login/js/ban.js"></script>
-	<script type="text/javascript" src="/lbyun/lbyun/Public/Home/js/jQuery.md5.js"></script>
-	<script type="text/javascript" src="/lbyun/lbyun/Public/Home/js/jquery.tips.js"></script>
-	<script type="text/javascript" src="/lbyun/lbyun/Public/Home/js/jquery.cookie.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/bootstrap.min.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/js/jquery-1.7.2.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/jquery.easing.1.3.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/jquery.mobile.customized.min.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/camera.min.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/templatemo_script.js"></script>
+	<script src="/lenovo3c_new/lbyun/Public/Home/login/js/ban.js"></script>
+	<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Home/js/jQuery.md5.js"></script>
+	<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Home/js/jquery.tips.js"></script>
+	<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Home/js/jquery.cookie.js"></script>
 	
 </body>
 </html>

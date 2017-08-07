@@ -185,7 +185,6 @@ class SaleAnalyzeController extends Controller
             return array('time' => array_reverse ($day) , 'data' => array_values ($data));
 //            dump (array('time' => array_reverse ($day) , 'data' => array_values ($data)));
         }
-
     }
 
     /**

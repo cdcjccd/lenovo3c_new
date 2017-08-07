@@ -303,7 +303,7 @@
 </div>
 <script type="text/javascript">
     var co = $.cookie("pie7_route")
-	alert($.param(co))
+//	alert($.param(co))
 </script>
 <script type="text/javascript">
 

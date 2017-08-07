@@ -44,84 +44,40 @@
 		<a class="closed close" href="#">×</a> <strong>提示！</strong>
 	</div>
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="http://114.247.140.53:8080/lenjoy#tOrder/auditUserListOrder">实时监控</a></li>
+		<li class="active"><a href="http://114.247.140.53:8080/lenjoy#tOrder/auditUserListOrder">用户审核信息</a></li>
 	</ul>
-	<h4>核保实时监控面板</h4>
-	<br>
-	<table id="contentTable" class="table table-condensed info_tab table-bordered table-striped" cellspacing="1" cellpadding="3">
-		<tbody>
-			<tr>
-				<td><b>今日新增订单</b></td>
-				<td colspan="3" class="text-error">15</td>
-			</tr>
-			<tr>
-				<td><b>待审核订单</b></td>
-				<td>1单</td>
-				<td><b>今日已审核订单</b></td>
-				<td>36单</td>
-			</tr><tr>
-				<td><b>平均审核用时</b></td>
-				<td>7时44分14秒</td>
-				<td><b>审核完成率</b></td>
-				
-					
-						<td class="text-success">97.30%</td>
-					
-					
-					
-				
+	<form id="searchForm" class="breadcrumb form-search" action="/lenjoy#tOrder/auditUserListOrder" method="post">
 
-			</tr>
-		</tbody>
-	</table>
-	<br>
-	<h4>已审核订单用时分析</h4>
-	<br>
-	<table id="contentTable" class="table table-striped table-bordered table-condensed">
-		<thead>
-			<tr>
-				<th>审核时间</th>
-				<th>订单数量</th>
-				<th>平均审核时间</th>
-				<th>比例</th>
-			</tr>
-		</thead>
-		<tbody>
-			
-				<tr>
-					<td>&lt; 5分钟</td>
-					<td>0</td>
-					<td>0秒</td>
-					<td>0.00%</td>
-				</tr>
-			
-				<tr>
-					<td>&lt; 10分钟</td>
-					<td>2</td>
-					<td>7分54秒</td>
-					<td>5.56%</td>
-				</tr>
-			
-				<tr>
-					<td>&lt; 30分钟</td>
-					<td>6</td>
-					<td>22分58秒</td>
-					<td>16.67%</td>
-				</tr>
-			
-				<tr>
-					<td>&gt; 30分钟</td>
-					<td>28</td>
-					<td>9时51分23秒</td>
-					<td>77.78%</td>
-				</tr>
-			
-			
-		</tbody>
-	</table>
+		<div style="margin-top: 8px;">
+			<label>开始时间：</label> 
+			<input name="createDate" maxlength="50" id="d12" onclick="WdatePicker()" placeholder=" 审核时间" class="required Wdate span2" type="text"> 
+		    <label>结束时间：</label>
+			<input name="endDate" maxlength="50" id="d12" onclick="WdatePicker()" placeholder="审核时间" class="required Wdate span2" type="text"> &nbsp;
+			<input id="btnSubmit" class="btn btn-primary" value="查询" onclick="return search();" type="submit">
+		</div>
+	</form>
+	
 
-	<h4>核保人员分析</h4>
-	<br>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">top.$.jBox.closeTip();</script>
+
+
+
 	<table id="contentTable" class="table table-striped table-bordered table-condensed">
 		<thead>
 			<tr>
@@ -153,7 +109,6 @@
 			
 		</tbody>
 	</table>
-
 
 	
 </body></html>

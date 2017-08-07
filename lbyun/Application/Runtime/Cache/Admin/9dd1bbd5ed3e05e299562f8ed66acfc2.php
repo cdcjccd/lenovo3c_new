@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <!-- 下拉框 -->
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/chosen.css" />
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/chosen.css" />
   <!-- jsp文件头和头部 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta charset="utf-8" />
@@ -10,22 +10,22 @@
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <!-- bootstrap & fontawesome -->
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
   <!-- page specific plugin styles -->
   <!-- text fonts -->
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
   <!-- ace styles -->
-  <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
-  <script src="/lbyun/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
   <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries
 		[if lte IE 8]> -->
-  <script src="/lbyun/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
-  <script src="/lbyun/lbyun/Public/Admin/static/ace/js/respond.js"></script>
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/respond.js"></script>
   <!--<![endif]-->
   <!-- 日期框 -->
-     <link href="/lbyun/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
-     <script src="/lbyun/lbyun/Public/Admin/static/userlist/My97DatePicker/WdatePicker.js"></script>
+     <link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
+     <script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/My97DatePicker/WdatePicker.js"></script>
      <style>
          input{
              width:150px;
@@ -180,10 +180,10 @@
    <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse"> <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i> </a>
   </div>
   <script type="text/javascript">
-			window.jQuery || document.write("<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
 		</script>
   <script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+			if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 		</script>
 
   <script type="text/javascript">
