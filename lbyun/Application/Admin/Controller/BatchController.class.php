@@ -9,12 +9,15 @@ class BatchController extends Controller {
 @导入功能 (半成品)
 */
     public function index(){
-
-        $data = M("hou_brand")->field("brand_id,brand_name,parent_id")->select();
+        
+        $data = M("hou_brand")->field("brand_id,brand_name,parent_id,model_name")->select();
         $this ->brand =  catgory($data,0);
-       	$this -> display();
+        $this ->assign("look",$data);
+       	$this ->display();
     }
-   
+
+
+
 /**
     *
     * Enter 导出excel共同方法 ...
@@ -37,7 +40,7 @@ class BatchController extends Controller {
 
                   $objPHPExcel -> setActiveSheetIndex(0) -> setCellValue($cellName[$i].'1', $expCellName[$i][1]);     
         } 
-        // $objPHPExcel->getActiveSheet(0)->mergeCells('A1:'.$cellName[$cellNum-1].'1');//合并单元格 
+    
 
         for($i=0;$i<$dataNum;$i++){            
            for($j=0; $j<$cellNum; $j++){
@@ -64,11 +67,6 @@ class BatchController extends Controller {
                            );
               $xlsModel = M('market_bulk');//实例化数据库
               $xlsData  = $xlsModel->Field('bulk_phone,bulk_lmei,bulk_key,bulk_card,bulk_time')->select();//查找内容    
-              // foreach ($xlsData as $k => $v) {
-                                           
-              //          // $xlsData[$k]['brand_state']=$v['brand_state']==1?'正常':'禁用';
-              //   } 
-
               $this -> exportExcel($xlsName,$xlsCell,$xlsData);   
         }
 
@@ -82,7 +80,7 @@ class BatchController extends Controller {
                 'exts'=>array('xlsx','xls'),
                 'rootPath'=>"./Public/",
                 'savePath'=>'Img/', 
-                // 'autoSub' =>true,
+                'autoSub' =>true,
                 'subName'    =>    array('date','Ymd'),
             );
 
@@ -94,7 +92,7 @@ class BatchController extends Controller {
             vendor("PHPExcel.PHPExcel");
 
             $file_name=$uploads->rootPath.$info['action_file']['savepath'].$info['action_file']['savename'];
-            
+        
             $objReader = \PHPExcel_IOFactory::createReader('Excel5');
      
             $objPHPExcel = $objReader->load($file_name,$encode='utf-8');
@@ -104,37 +102,33 @@ class BatchController extends Controller {
             $highestRow = $sheet->getHighestRow(); // 取得总行数
 
             $highestColumn = $sheet->getHighestColumn(); // 取得总列数
-
-        for($i=0;$i<=$highestRow;$i++){
+ 
+        for($i=2;$i<=$highestRow;$i++){
 
                $date['bulk_phone'] = $objPHPExcel->getActiveSheet()->getCell("A".$i)->getValue();
-               $date['bulk_lmei']= $objPHPExcel->getActiveSheet()->getCell("B".$i)->getValue();
-               $date['bulk_key']= $objPHPExcel->getActiveSheet()->getCell("C".$i)->getValue();
-               $date['bulk_card']= $objPHPExcel->getActiveSheet()->getCell("D".$i)->getValue();
-               $date['active_bid']= $objPHPExcel->getActiveSheet()->getCell("E".$i)->getValue();
-               $date['action_count']= $objPHPExcel->getActiveSheet()->getCell("F".$i)->getValue();  
-               $date['bulk_time']= $objPHPExcel->getActiveSheet()->getCell("G".$i)->getValue(); 
+               $date['bulk_lmei'] = $objPHPExcel->getActiveSheet()->getCell("B".$i)->getValue();
+               $date['bulk_time'] = $objPHPExcel->getActiveSheet()->getCell("C".$i)->getValue();// excel 时间转换
+               $date['bulk_key'] = $objPHPExcel->getActiveSheet()->getCell("D".$i)->getValue();
+               $date['bulk_card'] = $objPHPExcel->getActiveSheet()->getCell("E".$i)->getValue();
+               $date['active_bid'] = $objPHPExcel->getActiveSheet()->getCell("F".$i)->getValue();  
+               $date['action_count'] = $objPHPExcel->getActiveSheet()->getCell("G".$i)->getValue(); 
                $date['action_file'] = $objPHPExcel->getActiveSheet()->getCell('H'.$i)->getValue();
-               $fing = M('market_action');
-               $king = $fing->create();
-               $date['bulk_time'] =date("Y-m-d");
+               $date['bulk_time'] = gmdate("YmdHis", \PHPExcel_Shared_Date::ExcelToPHP());
                $date['active_bid'] = $_POST['active_bid'];
                $date['action_count'] = $_POST['action_count'];
-               $date['action_file'] = $file_name;
-    
-            if($fing->add($date)){
+               $date['order_id'] = $_POST['order_id'];
+               $date['action_file'] = $file_name; 
+               $date['last_ip'] = gethostbyname($_ENV['COMPUTERNAME']); //获取本机的局域网IP
+               M('market_action')->add($date);
+             }     
+               $this->success('导入成功',U('Batch/index'));
+          }  
+           else{
 
-                  $this->success('导入成功！'); 
-
-                }
-           }  
-           die; 
-             }   
-         else{
-                 $this->error('请选择文件!');
-         }
-         
+                  $this->error('请选择文件!');
+             }  
         } 
+
        // 结束
       }
 

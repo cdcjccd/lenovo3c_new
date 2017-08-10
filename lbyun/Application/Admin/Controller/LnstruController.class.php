@@ -20,11 +20,13 @@ class LnstruController extends CommonController {
          
         $act_valu = I('post.act_val');
         $hou = M("act_log");
-    	  $data = $hou->where("act_val='$act_valu'")->find();     
-        if(empty($data) && $data['act_val']!=$act_valu){
-
-            $this->error('数据为空/激活码不正确');
-         }
+    	  $data = $hou->where("act_val='$act_valu'")->find();
+        if(empty($data)){
+            $this->error('数据不能为空');
+        }
+        if($data['act_val']!=$act_valu){
+            $this->error('激活码不正确');
+        }
         $tong = M("sys_route") ->field("t_id,name")->select();
         $goods = M('sys_business') -> field('id,busname') ->select();
         $data  = M("hou_brand") -> field("brand_id,brand_name,parent_id") -> select(); // 显示类型

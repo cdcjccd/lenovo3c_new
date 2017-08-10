@@ -2,7 +2,7 @@
 <html lang="en">
  <head> 
   <!-- 下拉框 --> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/chosen.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/chosen.css" /> 
   <!-- jsp文件头和头部 --> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
   <meta charset="utf-8" /> 
@@ -10,17 +10,17 @@
   <meta name="description" content="" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> 
   <!-- bootstrap & fontawesome --> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/bootstrap.css" /> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/font-awesome.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/bootstrap.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" /> 
   <!-- page specific plugin styles --> 
   <!-- text fonts --> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/ace-fonts.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" /> 
   <!-- ace styles --> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" /> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/ace-extra.js"></script> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/html5shiv.js"></script> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/respond.js"></script> 
-  <link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/datepicker.css" /> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" /> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/respond.js"></script> 
+  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/datepicker.css" /> 
  </head> 
  <body class="no-skin"> 
   <div class="main-container" id="main-container"> 
@@ -103,22 +103,22 @@
   </div> 
 
     <script type="text/javascript">
-			window.jQuery || document.write("<script src='/yjc/lby/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
 		</script> 
 
     <script type="text/javascript">
-			if('ontouchstart' in document.documentElement) document.write("<script src='/yjc/lby/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+			if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 		</script> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/bootbox.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/bootbox.js"></script> 
   <!-- ace scripts --> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/ace/ace.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace/ace.js"></script> 
   <!-- 下拉框 --> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/chosen.jquery.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/chosen.jquery.js"></script> 
   <!-- 日期框 --> 
-  <script src="/yjc/lby/Public/Admin/static/ace/js/date-time/bootstrap-datepicker.js"></script> 
-  <script src="/yjc/lby/Public/Admin/static/module_option/js/layer.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/date-time/bootstrap-datepicker.js"></script> 
+  <script src="/lenovo3c_new/lbyun/Public/Admin/static/module_option/js/layer.js"></script> 
   <!--layer弹出图层--> 
-  <script type="text/javascript" src="/yjc/lby/Public/Admin/static/js/jquery.tips.js"></script> 
+  <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/jquery.tips.js"></script> 
   <script type="text/javascript">
 		// $(top.hangge());//关闭加载状态
 		//检索

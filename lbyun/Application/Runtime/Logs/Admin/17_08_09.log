@@ -1,0 +1,11 @@
+[ 2017-08-09T16:38:07+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Tonglu/test.html?uid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='NaN' and g.status='1' )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

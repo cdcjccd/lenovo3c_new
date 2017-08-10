@@ -7,21 +7,24 @@
 <meta http-equiv="Expires" content="0">
 <meta name="author" content="http://ljz0721cx.iteye.com/">
 <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9,IE=10">
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery-1.js" type="text/javascript"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery.js" type="text/javascript"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script>
-<link href="/yjc/lby/Public/Admin/static/userlist/jquery.css" type="text/css" rel="stylesheet">
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery_002.js" type="text/javascript"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/j/yjc/lby/Public/Admin/static/userlist/query_006.js" type="text/javascript"></script>
-<link href="/yjc/lby/Public/Admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet">
-<script src="/yjc/lby/Public/Admin/static/userlist/bootstrap.js" type="text/javascript"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/WdatePicker.js" type="text/javascript"></script><link href="WdatePicker.css" rel="stylesheet" type="text/css">
-<script src="/yjc/lby/Public/Admin/static/userlist/jquery_003.js"></script>
-<script src="/yjc/lby/Public/Admin/static/userlist/mustache.js" type="text/javascript"></script>
-<link href="/yjc/lby/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
-<script src="/yjc/lby/Public/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
-<meta name="decorator" content="default">
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-1.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script>
+<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery.css" type="text/css" rel="stylesheet">
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery_002.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/j/lenovo3c_new/lbyun/Public/Admin/static/userlist/query_006.js" type="text/javascript"></script>
+<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet">
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/bootstrap.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/WdatePicker.js" type="text/javascript"></script><link href="WdatePicker.css" rel="stylesheet" type="text/css">
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery_003.js"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/mustache.js" type="text/javascript"></script>
+<link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
+
+    <script src="/lenovo3c_new/lbyun/Public/Admin/layer/layer.js" type="text/javascript"></script>
+
+    <meta name="decorator" content="default">
     <script type="text/javascript">
     function findCity(me){
         $.getJSON("/lenjoy/admin/sys/area/getAreas",{"parentId":me.value}, function(areas){
@@ -50,7 +53,7 @@
         <div class="control-group">
             <label class="control-label">品牌名称:</label>
             <div class="controls">
-               <input id="loginMobile" name="brand_name" class="required" maxlength="11" aria-required="true" type="text">                  
+               <input id="name" name="brand_name" class="required" maxlength="11" aria-required="true" type="text">
             </div>
         </div>
           
@@ -69,14 +72,14 @@
          <div class="control-group">
             <label class="control-label">型号名称:</label>
             <div class="controls">
-               <input id="loginMobile" name="model_name" class="required" maxlength="11" aria-required="true" type="text">                  
+               <input id="model" name="model_name" class="required" maxlength="11" aria-required="true" type="text">
             </div>
         </div>
    
          <div class="control-group">
             <label class="control-label">型号价格:</label>
             <div class="controls">
-               <input id="loginMobile" name="model_price" class="required" maxlength="11" aria-required="true" type="text">                  
+               <input id="price" name="model_price" class="required" maxlength="11" aria-required="true" type="text">
             </div>
         </div>
 
@@ -111,10 +114,56 @@
         </div>
         <div class="form-actions">
            
-          <input id="btnSubmit" class="btn btn-primary" value="提交" onclick="return search();" type="submit">
+          <input id="Submit" class="btn btn-primary" value="提交"  type="button">
   <a href="<?php echo U('Background/brand_show');?>"><input id="btnSubmit" class="btn btn-primary" value="返回" onclick="return search();" type="button"></a>
 
     </form>
 
-    
+    <script type="text/javascript">
+        $('#Submit').click(function () {
+            if ($('#name').val() == ''){
+                layer.tips('不能为空。', '#name', {
+                    tips: [2, '#3595CC'],
+                    time: 2000
+                });
+//        var error = "<font class='error'>*不能为空<font>";
+//        $('#name').after(error)
+                return false;
+            }
+
+            if ($('#model').val() == ''){
+                layer.tips('不能为空。', '#model', {
+                    tips: [2, '#3595CC'],
+                    time: 2000
+                });
+                return false;
+            }
+
+            if ($('#price').val() == ''){
+                layer.tips('不能为空。', '#price', {
+                    tips: [2, '#3595CC'],
+                    time: 2000
+                });
+                return false;
+            }
+
+            if ($('#pifaprice').val() == ''){
+                layer.tips('不能为空。', '#pifaprice', {
+                    tips: [2, '#3595CC'],
+                    time: 2000
+                });
+                return false;
+            }
+
+            if ($('#mianpei').val() == ''){
+                layer.tips('不能为空。', '#mianpei', {
+                    tips: [2, '#3595CC'],
+                    time: 2000
+                });
+                return false;
+            }
+            //上面的验证都合格了,走提交
+            $('#inputForm').submit();
+        })
+    </script>
 </body></html>

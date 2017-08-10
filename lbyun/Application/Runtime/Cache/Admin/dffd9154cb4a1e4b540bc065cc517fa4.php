@@ -7,13 +7,13 @@
 		<title>联保云</title>
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-		<link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/bootstrap.css" />
-		<link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/font-awesome.css" />
-		<link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/ace-fonts.css" />
-		<link rel="stylesheet" href="/yjc/lby/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
-		<script src="/yjc/lby/Public/Admin/static/ace/js/ace-extra.js"></script>
-		<script src="/yjc/lby/Public/Admin/static/ace/js/html5shiv.js"></script>
-		<script src="/yjc/lby/Public/Admin/static/ace/js/respond.js"></script>
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
+		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
+		<script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/respond.js"></script>
 </head>
 <body class="no-skin">
 	<div class="main-container" id="main-container">
@@ -109,10 +109,10 @@
 
 	</div>
 	<script type="text/javascript">
-        window.jQuery || document.write("<script src='/yjc/lby/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
+        window.jQuery || document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.js'>"+"<"+"/script>");
 	</script>
 	<script type="text/javascript">
-        if('ontouchstart' in document.documentElement) document.write("<script src='/yjc/lby/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+        if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 	</script>
 	<script type="text/javascript">
         // 一键选中

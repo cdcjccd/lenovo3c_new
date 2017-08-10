@@ -36,7 +36,6 @@ class UserController extends Controller{
 			$map['userRealName'] = array('like',"%$userRealName%");//where查询条件
 			$map['registerFrom'] = array('like',"%$registerFrom%");
 
-
 			$count = $this->userModel->where($map)->count();//分页显示
 			$Page = new \Think\Page($count,C('PAGE_NUM'));
 
@@ -69,9 +68,7 @@ class UserController extends Controller{
 	public function userAdd(){
 
 		if (IS_POST) {
-
 			$data = I('post.');//接收数据
-
 			$data['create_time'] = date('Y-m-d H:i:s',time());
 			$str = 'abcdefghjklmnopqrstuvwxyz';
 			$data['userId'] = str_shuffle( substr( str_shuffle($str) , 0,5 ).mt_rand(10000000,99999999) );

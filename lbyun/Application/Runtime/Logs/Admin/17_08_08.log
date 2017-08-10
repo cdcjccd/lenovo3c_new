@@ -1,0 +1,1366 @@
+[ 2017-08-08T09:10:16+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Tonglu/test.html?uid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0090s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='NaN' and g.status='1' )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T09:22:27+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Tonglu/test.html?uid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='NaN' and g.status='1' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T09:25:13+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502155513780
+ERR: 非法操作:undefined
+
+[ 2017-08-08T09:25:42+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:25:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:25:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:25:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:32:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502155970802
+ERR: 非法操作:undefined
+
+[ 2017-08-08T09:32:59+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/url
+ERR: 非法操作:url
+
+[ 2017-08-08T09:33:40+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/url
+ERR: 非法操作:url
+
+[ 2017-08-08T09:33:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502156023620
+ERR: 非法操作:undefined
+
+[ 2017-08-08T09:33:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/url
+ERR: 非法操作:url
+
+[ 2017-08-08T09:33:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502156034195
+ERR: 非法操作:undefined
+
+[ 2017-08-08T09:51:00+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:34+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502157094321
+ERR: 非法操作:undefined
+
+[ 2017-08-08T09:51:36+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:46+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T09:51:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:00:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502157618099
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:00:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502157653942
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:02:11+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502157730992
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:02:13+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:16:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502158608715
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:16:52+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:17:32+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502158652850
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:17:35+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:02+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502158682677
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:18:04+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:10+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:14+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:19+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:25+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:31+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:18:57+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502158737047
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:19:00+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:19:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502158790538
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:19:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:20:01+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:20:07+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:20:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:20:38+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:23:40+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159020748
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:23:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:23:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:26:08+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159167863
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:26:10+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:26:11+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:26:12+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:26:15+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:28:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159297890
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:28:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:13+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159353176
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:29:15+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:20+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:20+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:21+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:22+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:29:22+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:22+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159482474
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:31:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:26+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159508767
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:31:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:31:57+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:21+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:25+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:26+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:27+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:30+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:31+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:32:31+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:33:00+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159580227
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:33:04+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:37+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159677372
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:34:44+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:46+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:52+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:57+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:34:59+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:01+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:03+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:07+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:36+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159736849
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:35:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:55+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:35:58+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159758805
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:36:02+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:36:08+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:36:14+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:36:20+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:36:32+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:37:03+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159822861
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:37:07+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:37:09+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:36+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159916758
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:38:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:52+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:54+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:38:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:39:00+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502159940376
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:46:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160383427
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:46:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:46:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160408143
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:46:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:46:58+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:46:59+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:00+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:02+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:04+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:06+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:08+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:10+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:47:12+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:38+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160517863
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:48:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:42+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:44+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:44+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:48:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160583833
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:49:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:49+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:49:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:rend
+
+[ 2017-08-08T10:53:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160808962
+ERR: 非法操作:undefined
+
+[ 2017-08-08T10:53:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502160836437
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:01:02+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161262563
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:01:21+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161281541
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:01:39+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161299851
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:02:31+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161350858
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:03:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161403974
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:03:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161425610
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:04:38+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161478160
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:06:43+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161603583
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:08:17+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161697431
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:08:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161709717
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:11:33+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161893523
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:12:30+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502161950341
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:13:47+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162026844
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:14:19+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162059071
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:14:34+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162074465
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:16:13+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162172986
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:20:30+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162430450
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:22:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162573491
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:24:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502162690435
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:32:32+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502163152057
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:32:57+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502163177200
+ERR: 非法操作:undefined
+
+[ 2017-08-08T11:41:14+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502163674211
+ERR: 非法操作:undefined
+
+[ 2017-08-08T13:13:48+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502169228681
+ERR: 非法操作:undefined
+
+[ 2017-08-08T13:25:46+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502169946266
+ERR: 非法操作:undefined
+
+[ 2017-08-08T13:25:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T13:28:38+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502170117932
+ERR: 非法操作:undefined
+
+[ 2017-08-08T13:29:06+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-08T13:33:06+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502170386337
+ERR: 非法操作:undefined
+
+[ 2017-08-08T13:33:10+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/rend.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T14:32:01+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502173921860
+ERR: 非法操作:undefined
+
+[ 2017-08-08T14:37:20+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502174240545
+ERR: 非法操作:undefined
+
+[ 2017-08-08T14:38:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502174308736
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:39:39+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502177979768
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:40:20+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178020152
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:40:27+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/:U('Admin/Login/checkTimes')?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-08-08T15:40:34+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178034332
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:40:38+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/:U('Admin/Login/checkTimes')?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-08-08T15:42:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178143093
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:42:25+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/:U('Admin/Login/checkTimes')?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-08-08T15:42:26+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/:U('Admin/Login/checkTimes')?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-08-08T15:48:50+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178530309
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:49:09+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/:U('Admin/Login/checkTimes')?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作::U('Admin
+
+[ 2017-08-08T15:49:30+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178570408
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:49:39+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:49:39+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:50:40+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178640055
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:50:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 133 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:50:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:51:03+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178663502
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:51:08+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:51:09+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 133 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:51:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502178689075
+ERR: 非法操作:undefined
+
+[ 2017-08-08T15:51:33+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-08T15:51:33+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:02:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502179360874
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:02:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 133 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-08-08T16:02:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:04:22+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502179462140
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:10:52+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502179851882
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:23:42+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502180622065
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:24:35+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502180675829
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:38:05+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502181485452
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:38:09+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:38:09+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:46:22+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502181982724
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:46:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:46:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:47:10+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182030580
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:47:14+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-08T16:47:15+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-08T16:47:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182049077
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:47:35+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=17611225799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:47:36+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\phpstudy\WWW\lenovo3c_new\lbyun\Application\Admin\Controller\LoginController.class.php 第 139 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:48:52+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182132011
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:48:55+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182135492
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:49:31+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182170937
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:52:14+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182334007
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:52:41+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182361642
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:53:24+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182404105
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:53:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=188295013340
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:53:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:56:18+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182578493
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:56:28+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=18829501334
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:56:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:58:21+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182701024
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:58:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502182703702
+ERR: 非法操作:undefined
+
+[ 2017-08-08T16:58:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:58:29+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:58:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Login/checkTimes.html?usermobile=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:58:51+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/checkTimes.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T18:33:26+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502188406696
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:33:30+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502188409870
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:33:45+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/xieyi.html
+ERR: 非法操作:xieyi
+
+[ 2017-08-08T18:33:53+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Admin/Tonglu/test.html?uid=NaN
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sys_route` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='NaN' and g.status='1' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T18:33:56+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502188436543
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:55:03+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502189703105
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:55:59+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502189759042
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:58:46+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502189926060
+ERR: 非法操作:undefined
+
+[ 2017-08-08T18:59:16+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502189956483
+ERR: 非法操作:undefined
+
+[ 2017-08-08T19:00:23+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502190023500
+ERR: 非法操作:undefined
+
+[ 2017-08-08T19:01:34+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502190094123
+ERR: 非法操作:undefined
+
+[ 2017-08-08T19:05:11+08:00 ] 127.0.0.1 /lenovo3c_new/lbyun/index.php/Login/undefined?1502190311621
+ERR: 非法操作:undefined
+

@@ -26,7 +26,9 @@ class TongluController extends Controller{
 			if (!empty($tongluName)) {
 				$where['name'] = array('like',"%$tongluName%");
 			}
-		}				
+		}
+        cookie ('uid' , session("name_id"));
+
 		$data = $this->Model->getAll($where);
 //		$this->assign('page',$data[0]);
 //		$this->assign('data',$data[1]);
@@ -35,6 +37,14 @@ class TongluController extends Controller{
 
 	}
 
+	public function test(){
+        if (IS_AJAX) {
+            $auth = new \Think\Auth();
+            if ( $auth -> check('Admin/Tonglu/tongluAdd' ,  I('get.uid')) ){
+                $this -> ajaxReturn(1);
+            }
+        }
+    }
 	public function tongluAdd(){
 		
 		if(IS_POST){			
@@ -51,8 +61,18 @@ class TongluController extends Controller{
 				$this->ajaxReturn('添加失败:'.$this->Model->geterror());
 			}
 
-		}
-		$this->display();
+		}else{
+
+//		    if (IS_AJAX) {
+                $auth = new \Think\Auth();
+//                if ( $auth -> check('Admin/Tonglu/tongluAdd' ,  session("name_id")) ){
+
+                    $this->display();
+//                }
+//            }
+
+        }
+
 	}
 
 

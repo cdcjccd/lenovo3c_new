@@ -14,7 +14,9 @@
 		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
 		<!-- page specific plugin styles -->
 		<!-- text fonts -->
-		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery-1.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
 		<!-- ace styles -->
 		<link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
 		<!--[if lte IE 9]>
@@ -24,7 +26,10 @@
 		  <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-ie.css" />
 		<![endif]-->
 		<!-- inline styles related to this page -->
-		<!-- ace settings handler -->
+
+	<script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/jquery.cookie.js"></script>
+
+	<!-- ace settings handler -->
 		<!-- <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script> -->
 		<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries
 		[if lte IE 8]> -->
@@ -97,7 +102,9 @@
 
 
 								<td style="padding-right:30px;">
-									<a href="<?php echo U('Admin/Tonglu/tongluAdd');?>"><input id="btnSubmit" class="btn btn-primary" value="通路添加"  type="button"></a>
+									<a id="input" href="<?php echo U('Admin/Tonglu/tongluAdd');?>">
+										<!--<input id='btnSubmit' class='btn btn-primary' value='通路添加'  type='button'>-->
+									</a>
 								</td>
 
 
@@ -108,9 +115,19 @@
 						</form>
 
 						<script>
-							
+							$(document).ready(function(){
+							    var uid = parseInt( $.cookie("uid") );
+							    $.ajax({
+									url:  "<?php echo U('Admin/Tonglu/test');?>?uid="+uid,
+									success: function(res) {
+									    if (res == 1) {
+									        var input = "<input id='btnSubmit' class='btn btn-primary' value='通路添加'  type='button'>"
+									        $('#input').html(input);
+										}
+									}
+								})
+							})
 							function tosearch(){
-
 								$("#Form").submit();
 							}
 						</script>

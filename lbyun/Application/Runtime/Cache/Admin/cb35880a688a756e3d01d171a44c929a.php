@@ -8,25 +8,25 @@
 <meta http-equiv="Expires" content="0">
 <meta name="author" content="#">
 <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9,IE=10">
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/jquery-1.js" type="text/javascript"></script>
-<script src="/lbyun/lbyun/Public/admin/static/userlist/jquery.js" type="text/javascript"></script>
-<script src="/lbyun/lbyun/Public/admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
-<script src="/lbyun/lbyun/Public/admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script> -->
-<link href="/lbyun/lbyun/Public/admin/static/userlist/jquery.css" type="text/css" rel="stylesheet">
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/jquery_002.js" type="text/javascript"></script> -->
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/jquery_006.js" type="text/javascript"></script> -->
-<link href="/lbyun/lbyun/Public/admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet">
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/bootstrap.js" type="text/javascript"></script> -->
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery-1.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery-ui-1.js" type="text/javascript"></script>
+<script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery-migrate-1.js" type="text/javascript"></script> -->
+<link href="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery.css" type="text/css" rel="stylesheet">
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery_002.js" type="text/javascript"></script> -->
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery_006.js" type="text/javascript"></script> -->
+<link href="/lenovo3c_new/lbyun/Public/admin/static/userlist/bootstrap.css" type="text/css" rel="stylesheet">
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/bootstrap.js" type="text/javascript"></script> -->
 <!--[if lte IE 6]><link href="/lenjoy/static/bootstrap/bsie/css/bootstrap-ie6.min.css" type="text/css" rel="stylesheet" />
 <script src="/lenjoy/static/bootstrap/bsie/js/bootstrap-ie.min.js" type="text/javascript"></script><![endif]-->
-<!--<script src="/lbyun/lbyun/Public/admin/static/userlist/WdatePicker.js" type="text/javascript"></script><link href="WdatePicker.css" rel="stylesheet" type="text/css">-->
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/jquery_003.js"></script> -->
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/mustache.js" type="text/javascript"></script> -->
-<link href="/lbyun/lbyun/Public/admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
-<!-- <script src="/lbyun/lbyun/Public/admin/static/userlist/lenjoy.js" type="text/javascript"></script> -->
+<!--<script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/WdatePicker.js" type="text/javascript"></script><link href="WdatePicker.css" rel="stylesheet" type="text/css">-->
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/jquery_003.js"></script> -->
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/mustache.js" type="text/javascript"></script> -->
+<link href="/lenovo3c_new/lbyun/Public/admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
+<!-- <script src="/lenovo3c_new/lbyun/Public/admin/static/userlist/lenjoy.js" type="text/javascript"></script> -->
 
-	<script src="/lbyun/lbyun/Public/Admin/layer/jquery.js" type="text/javascript"></script>
-	<!-- <script src="/lbyun/lbyun/Public/Admin/layer/layer.js" type="text/javascript"></script> -->
+	<script src="/lenovo3c_new/lbyun/Public/Admin/layer/jquery.js" type="text/javascript"></script>
+	<!-- <script src="/lenovo3c_new/lbyun/Public/Admin/layer/layer.js" type="text/javascript"></script> -->
 		<!--  需要添加百度统计分析-->
 
 
@@ -91,8 +91,8 @@ ul, ol, li {
 	outline: none;
 }*/
 </style>
-	<script src="/lbyun/lbyun/Public/Admin/js/jquery.js"></script> 
-<script src="/lbyun/lbyun/Public/Admin/js/calendar.js"></script>  -->
+	<script src="/lenovo3c_new/lbyun/Public/Admin/js/jquery.js"></script> 
+<script src="/lenovo3c_new/lbyun/Public/Admin/js/calendar.js"></script>  -->
 
 	</head>
 	<body>

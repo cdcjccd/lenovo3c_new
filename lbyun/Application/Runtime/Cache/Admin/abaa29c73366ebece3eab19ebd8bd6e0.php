@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- 下拉框 -->
-    <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/chosen.css" />
+    <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/chosen.css" />
     <!-- jsp文件头和头部 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
@@ -10,25 +10,25 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <!-- bootstrap & fontawesome -->
-    <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
-    <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
+    <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/bootstrap.css" />
+    <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/font-awesome.css" />
     <!-- page specific plugin styles -->
     <!-- text fonts -->
-    <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
+    <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace-fonts.css" />
     <!-- ace styles -->
-    <link rel="stylesheet" href="/lbyun/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/static/ace/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
 
-    <script src="/lbyun/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
-    <script src="/lbyun/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
-    <script src="/lbyun/lbyun/Public/Admin/static/ace/js/respond.js"></script>
+    <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/ace-extra.js"></script>
+    <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/html5shiv.js"></script>
+    <script src="/lenovo3c_new/lbyun/Public/Admin/static/ace/js/respond.js"></script>
     <!--<![endif]-->
-    <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/dati/js/jquery-1.11.0.min.js"></script>
-    <!--<link type="text/css" rel="stylesheet" href="/lbyun/lbyun/Public/Admin/times/css/admin.css" />-->
-    <link rel="stylesheet" type="text/css" href="/lbyun/lbyun/Public/Admin/dati/css/jquery-ui.css" />
-    <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/dati/js/jquery-ui-1.10.4.custom.min.js"></script>
-    <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/dati/js/jquery.ui.datepicker-zh-CN.js"></script>
-    <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/dati/js/jquery-ui-timepicker-addon.js"></script>
-    <script type="text/javascript" src="/lbyun/lbyun/Public/Admin/dati/js/jquery-ui-timepicker-zh-CN.js"></script>
+    <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/dati/js/jquery-1.11.0.min.js"></script>
+    <!--<link type="text/css" rel="stylesheet" href="/lenovo3c_new/lbyun/Public/Admin/times/css/admin.css" />-->
+    <link rel="stylesheet" type="text/css" href="/lenovo3c_new/lbyun/Public/Admin/dati/css/jquery-ui.css" />
+    <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/dati/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/dati/js/jquery.ui.datepicker-zh-CN.js"></script>
+    <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/dati/js/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/dati/js/jquery-ui-timepicker-zh-CN.js"></script>
     <style type="text/css">
         .ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
         .ui-timepicker-div dl { text-align: left; }
@@ -194,16 +194,16 @@
 </div>
 
 
-<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.js'></script>
+<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.js'></script>
 <script type="text/javascript">
-    if('ontouchstart' in document.documentElement) document.write("<script src='/lbyun/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+    if('ontouchstart' in document.documentElement) document.write("<script src='/lenovo3c_new/lbyun/Public/Admin/static/ace/js/jquery.mobile.custom.js'>"+"<"+"/script>");
 </script>
 
 <!--layer弹出图层-->
 
-<script src="/lbyun/lbyun/Public/Admin/static/module_option/js/layer.js"></script>
+<script src="/lenovo3c_new/lbyun/Public/Admin/static/module_option/js/layer.js"></script>
 <!--layer弹出图层-->
-<script type="text/javascript" src="/lbyun/lbyun/Public/Admin/static/js/jquery.tips.js"></script>
+<script type="text/javascript" src="/lenovo3c_new/lbyun/Public/Admin/static/js/jquery.tips.js"></script>
 <script type="text/javascript">
 
     // 一键选中

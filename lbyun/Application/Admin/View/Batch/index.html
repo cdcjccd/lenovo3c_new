@@ -21,7 +21,9 @@
 <script src="__PUBLIC__/Admin/static/userlist/mustache.js" type="text/javascript"></script>
 <link href="__PUBLIC__/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
 <script src="__PUBLIC__/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
-           
+
+    <script src="__PUBLIC__/Admin/layer/layer.js" type="text/javascript"></script>
+
     <meta name="decorator" content="default">
     </head>
     <body>
@@ -66,7 +68,7 @@
         <div class="control-group">
             <label class="control-label">导入数量:</label>
             <div class="controls">
-               <input id="loginMobile" name="action_count" class="required" placeholder="请输入50-1000的整数" maxlength="11" aria-required="true" type="text">            
+               <input id="num" name="action_count" class="required" placeholder="请输入50-1000的整数" maxlength="11" aria-required="true" type="text">
             </div>
         </div>
 
@@ -99,8 +101,28 @@
 				</div>
 			</fieldset>
         <div class="form-actions"> 
-          <input id="btnSubmit" class="btn btn-primary" value="提交" onclick="return search();" type="submit">
+          <input id="Submit" class="btn btn-primary" value="提交" onclick="return search();" type="button">
           <a href="{:U()}"><input id="btnSubmit" class="btn btn-primary" value="返回" onclick="return search();" type="button"></a>
     </form>
 </body>
+<script type="text/javascript">
+    $('#Submit').click(function(){
+//        if ($('#num').val() == '') {
+//            layer.tips('不能为空。', '#num', {
+//                tips: [2, '#3595CC'],
+//                time: 2000
+//            });
+//            return false;
+//        }
+        if ($('#num').val() == '' || $('#num').val() < 50 || $('#num').val() > 1000) {
+            layer.tips('请输入50-1000的整数。', '#num', {
+                tips: [2, '#3595CC'],
+                time: 2000
+            });
+            return false;
+        }
+
+        $('#inputForm').submit()
+    })
+</script>
 </html>

@@ -21,7 +21,10 @@
 <script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/mustache.js" type="text/javascript"></script>
 <link href="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.css" type="text/css" rel="stylesheet">
 <script src="/lenovo3c_new/lbyun/Public/Admin/static/userlist/lenjoy.js" type="text/javascript"></script>
-         <meta name="decorator" content="default">
+
+    <script src="/lenovo3c_new/lbyun/Public/Admin/layer/layer.js" type="text/javascript"></script>
+
+    <meta name="decorator" content="default">
     </head>
     <body>   
     <ul class="nav nav-tabs">
@@ -34,11 +37,22 @@
          <div class="control-group">
             <label class="control-label">激活码输入:</label>
             <div class="controls">
-               <input  name="act_val" class="required" maxlength="11" aria-required="true" type="text">                  
+               <input id="code" name="act_val" class="required" maxlength="11" aria-required="true" type="text">
             </div>
         </div>
         <div class="form-actions">
-          <input id="btnSubmit" class="btn btn-primary" value="下一步"  type="submit">
+          <input id="btnSubmit" class="btn btn-primary" value="下一步"  type="button">
     </form> 
 </body>
+<script type="text/javascript">
+    $('#btnSubmit').click(function(){
+        if ($('#code').val() == '') {
+            layer.tips('激活码不能为空。', '#code', {
+                tips: [2, '#3595CC'],
+                time: 2000
+            });
+        }
+        $('#inputForm').submit()
+    })
+</script>
 </html>
