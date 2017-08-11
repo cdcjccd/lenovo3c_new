@@ -138,8 +138,8 @@ public function test() {
 //        $phone=I("post.usermobile");
         $yzm=mt_rand(111111,999999);
         $c = new \TopClient();
-        $c ->appkey = '23573771';
-        $c ->secretKey = 'e5582f17ba7f60e0c430da54551aac01';
+        $c ->appkey = '******';
+        $c ->secretKey = '********';
         $req = new \AlibabaAliqinFcSmsNumSendRequest();
         $req ->setExtend("");
         $req ->setSmsType( "normal" );
